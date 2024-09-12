@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 90vh;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    background-image: url(facebook-nldhpmhq1r6q37ts.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 300px;
+    margin: 50px auto;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.one {
+    width: 100%;
+    background-color: transparent;
+    padding: 10px;
+    display: block;
+    margin: 10px 0;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: solid 2px black;
+    border-radius: 4px;
+}
+
+.container .remember-forgot {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.container .remember-forgot .remember {
+    flex: 1;
+}
+.container .remember-forgot a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: small;
+}
+
+.container button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.container p {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.container p a {
+    color: #fff;
+    text-decoration: none;
+}
